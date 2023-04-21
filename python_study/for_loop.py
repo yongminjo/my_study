@@ -29,7 +29,7 @@ for 변수 in iteravble값:
 # range(끝 정수)
 # 0 ~ 끝 정수 - 1
 # for i in range(10): 
-    # print(i)
+#     print(i)
 
 # range(시작, 끝)
 # 시작 ~ 끝 - 1

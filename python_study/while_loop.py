@@ -116,42 +116,42 @@ s1 += "하세요" #s1 = s1 + "하세요"
 # 코드를 수정해서 사용자가 입력한 숫자를
 # 계산하도록 변경하시오.
 
-# while True:
-#     print("""
-#          계산기
-#     ===============
-#     1. 더하기 (+)
-#     2. 빼기 (-)
-#     3. 곱하기 (*)
-#     4. 나누기 (/) 
-#     ===============
-#     q. 나가기 (Exit)
-#     """)
-#     operator = input("계산 또는 메뉴를 선택하세요 : ")
+while True:
+    print("""
+         계산기
+    ===============
+    1. 더하기 (+)
+    2. 빼기 (-)
+    3. 곱하기 (*)
+    4. 나누기 (/) 
+    ===============
+    q. 나가기 (Exit)
+    """)
+    operator = input("계산 또는 메뉴를 선택하세요 : ")
 
-#     if operator == "1":
-#         a = int(input("더할 숫자를 입력하세요."))
-#         b = int(input("더할 숫자를 입력하세요."))
-#         print(a, "+", b, "=", a + b) 
+    if operator == "1":
+        a = int(input("더할 숫자를 입력하세요."))
+        b = int(input("더할 숫자를 입력하세요."))
+        print(a, "+", b, "=", a + b) 
 
-#     elif operator == "2":
-#         a = int(input("뺄 숫자를 입력하세요."))
-#         b = int(input("뺄 숫자를 입력하세요."))
-#         print(a, "-", b, "=", a - b)
+    elif operator == "2":
+        a = int(input("뺄 숫자를 입력하세요."))
+        b = int(input("뺄 숫자를 입력하세요."))
+        print(a, "-", b, "=", a - b)
 
-#     elif operator == "3":
-#         a = int(input("곱할 숫자를 입력하세요."))
-#         b = int(input("곱할 숫자를 입력하세요."))
-#         print(a, "*", b, "=", a * b)
+    elif operator == "3":
+        a = int(input("곱할 숫자를 입력하세요."))
+        b = int(input("곱할 숫자를 입력하세요."))
+        print(a, "*", b, "=", a * b)
         
-#     elif operator == "4":
-#         a = int(input("나눌 숫자를 입력하세요."))
-#         b = int(input("나눌 숫자를 입력하세요."))
-#         print(a, "/", b, "=", a / b)
+    elif operator == "4":
+        a = int(input("나눌 숫자를 입력하세요."))
+        b = int(input("나눌 숫자를 입력하세요."))
+        print(a, "/", b, "=", a / b)
 
-#     elif operator == "q":
-#         print("계산기를 종료합니다.")
-#         break
+    elif operator == "q":
+        print("계산기를 종료합니다.")
+        break
 
 # 사용자가 가지고 있는 돈을 입력받는다.
 # 구매할 수 있는 커피의 개수와 잔돈을 출력한다.
