@@ -89,7 +89,7 @@ def 함수 이름 (함수입력값):
 
 # parameter
 # 함수에 입력하는 값
-# 매개변수, argument 혼용 
+# 매개변수, argument, 인수, 인자 혼용 (엄밀히 말하면 parameter가 맞음) 
 # def add(a, b):
 #     return a + b
 
