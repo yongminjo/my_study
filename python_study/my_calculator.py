@@ -21,12 +21,12 @@ while True:
     a = int(input("정수 1: "))
     b = int(input("정수 2: "))
     def add(a, b):
-        result = str(a)+" + "+str(b)+" = "+str(a+b)
+        result = "%d + %d = %d" % (a, b, a+b) # 포맷 코드 사용(정수형)예제
         with open("python_study/calculator_result.txt", "a", encoding="utf-8") as f:
             f.write(result)
 
     def sub(a, b):
-        result = str(a)+" - "+str(b)+" = "+str(a-b)
+        result = f"{a} - {b} = {a-b}" # f-string 사용 예제
         with open("python_study/calculator_result.txt", "a", encoding="utf-8") as f:
             f.write(result)
 

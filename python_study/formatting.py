@@ -23,5 +23,5 @@ float1 = 1.2345
 
 # f-string
 # Python 3.6 이후 버전부터 지원
-result = f"string1{string1} {int1} {float1}"
+result = f"{string1} {int1} {float1}"
 print(result)
