@@ -219,8 +219,8 @@ def 함수 이름 (함수입력값):
 #     print(5)
 # 함수의 반환값은 무조건!! 1개이다.
 # def test_func6(a, b):
-#     # return (a + b, a * b)
-#     return a + b, a * b
+#     # return (a + b, a * b) # 튜플의 형태
+#     return a + b, a * b  # 자동적으로 튜플의 형태로 인식
 
 # result = test_func6(1, 2)
 # res_add, res_mul = test_func6(1, 2)
