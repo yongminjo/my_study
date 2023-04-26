@@ -25,7 +25,7 @@ class MaxLimitCalculator(MyCalculator):
             if int(n1) > 100 or int(n2) > 100:
                 print("입력된 정수가 100보다 큽니다. 100이하의 값을 입력하세요")
                 break
-            elif int(n1) - int(n2) >= 100:
+            elif int(n1) - int(n2) > 100:
                 print("계산 결과가 100보다 큽니다. 100이하의 결과가 나오는 값을 입력하세요.")
                 break
             else:
